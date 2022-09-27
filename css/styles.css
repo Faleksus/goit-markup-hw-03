@@ -1,0 +1,226 @@
+:root {
+    --background-color: #2F303A;
+    --brand-color: #2196F3;
+    --white-color: #ffff;
+    --black-color: #212121;
+  }
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: var(--black-color);
+    max-width: 1600px;
+    position: relative;
+    background: var(--white-color);
+    font-style: normal;
+    font-weight: 400
+}
+
+.link {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:  var(--black-color);
+}
+
+.logo span {
+    color: var(--brand-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--brand-color);
+}
+
+.menu .active {
+    color: var(--brand-color);
+}
+
+.contact-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus,
+.adress:hover,
+.adress:focus {
+    color: var(--brand-color);
+}
+
+.banner {
+    background-color: var(--background-color);
+}
+
+.banner .banner-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.banner .button:focus,
+.banner .button:hover {
+    background-color: var(--brand-color);
+    color: var(--white-color);
+}
+
+.banner .button {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    background: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    border: none;
+}
+
+.features > h2 {
+    display: none;
+}
+
+.features .features-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features .features-list-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.doing .doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .team-list-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .team-list-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.portfolio > h1 {
+    display: none;
+}
+
+.filters .button {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:  var(--black-color);
+    border: none;
+}
+
+.filters .button:focus,
+.filters .button:hover {
+    background-color: var(--brand-color);
+    color: var(--white-color);
+}
+
+.projects .projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .projects-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+
+.adress-footer {
+    color: var(--white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.contact-link-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer {
+    background-color: var(--background-color);
+}
